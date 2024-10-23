@@ -1,7 +1,38 @@
 body {
-    background-color: aqua;
+    background-color: bisque;
     font-family: bAI Jamjuree;
 }
+
+#container{
+ display: flex;
+}
+
+.cartao{
+    margin: 1rem 1rem;
+    background-color: aqua;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33%-6rem);
+}
+
+
+.cartao_conteudo{
+text-decoration: center;
+/*background-color: aquamarine; */
+height: 100%;
+}
+
+.cartao_conteudo h3{
+    background-color: tomato;
+    text-align: left;
+    padding: o.5rem;
+    position: absolute;
+    margin: o.6rem;
+    border-radius: 0.6rem;
+    font-size: 1vw;
+}
+
+
 
 footer {
    background-color: black; 
@@ -14,6 +45,6 @@ footer {
 
 footer p {
     text-align: center;
-    font-size: o,6rem;
-    margin-top: o,5rem;
+    font-size: o.6rem;
+    margin-top: o.5rem;
 }
